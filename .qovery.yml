@@ -4,12 +4,12 @@ application:
   project: "wordpress"
   organization: "QoveryCommunity"
 databases:
-  - type: mysql
-    version: 8.0
-    name: mysql
+- type: "MYSQL"
+  name: "MYSQL"
+  version: "8.0"
 routers:
-  - name: "wordpress-router"
-    routes:
-      - application_name: "wordpress"
-        paths:
-        - "/"
+- name: "main-wordpress"
+  routes:
+  - application_name: "wordpress"
+    paths:
+    - "/*"
