@@ -1,0 +1,15 @@
+---
+application:
+  name: "wordpress"
+  project: "wordpress"
+  organization: "QoveryCommunity"
+databases:
+- type: mysql
+  version: 8.0
+  name: mysql
+routers:
+- name: "wordpress-router"
+  routes:
+  - application_name: "wordpress"
+    paths:
+    - "/"
