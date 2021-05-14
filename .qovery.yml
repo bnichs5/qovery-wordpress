@@ -1,16 +1,11 @@
 ---
 application:
   name: "qovery-wordpress"
-  project: "Garbageman"
+  project: "TestProject"
   organization: "QoveryCommunity"
-  storage:
-  - name: "Poop"
-    size: "10"
-    type: "fast_ssd"
-    mount_point: "/mnt/Poop"
 databases:
 - type: "MYSQL"
-  name: "Flints"
+  name: "flints"
   version: "5.6"
 routers:
 - name: "main-qovery-wordpress"
