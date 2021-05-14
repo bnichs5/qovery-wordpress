@@ -1,16 +1,16 @@
 ---
 application:
   name: "qovery-wordpress"
-  project: "ProjectTest"
+  project: "qovery-wordpress"
   organization: "QoveryCommunity"
   storage:
-  - name: "stones"
+  - name: "qovery-wp"
     size: "10"
     type: "fast_ssd"
-    mount_point: "/mnt/stones"
+    mount_point: "/mnt/qovery-wp"
 databases:
 - type: "MYSQL"
-  name: "flints"
+  name: "qovery-wordpress"
   version: "8.0"
 routers:
 - name: "main-qovery-wordpress"
